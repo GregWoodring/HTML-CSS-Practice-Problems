@@ -1,8 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
 .main-top-section {
     width: 100%;
     height: 375px;
     background: #F7F1E7;
     position: relative;
+    display: inline-block;
 }
 
 .top-header {
@@ -12,7 +21,8 @@
     background: #D8D8D8;
 }
 
-/*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
+/*  Step-1 You need to get all of these elements to line up side by side.
+ What display property would do this for you? */
 
 .menu {
     width: 100px;
